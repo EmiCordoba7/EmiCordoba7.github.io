@@ -1,6 +1,15 @@
 body {
     background-color:lightgray;
-    font-family: 'Roboto', Verdana, sans-serif sans-serif;
+    font-family: Arial, Helvetica, 'Roboto', sans-serif; /* Robot la agregué para que se vea lo aprendido, no me gustaba para mi proyecto*/ 
+}
+
+h1,i{
+	font-weight: bold;
+}
+
+#nombre {
+	background-color:royalblue ;
+    color: white;
 }
 
 .seccion {
@@ -18,3 +27,9 @@ body {
 .contenido-imagen img {
     border-radius: 50%;
 }
+
+.titulo{
+    font-weight: bold;
+}
+
+
