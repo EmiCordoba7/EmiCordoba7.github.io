@@ -6,42 +6,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <title>Mi Primer Proyecto</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTog4kXI4m1jBXcjDu5gGle0cSJ1ImM46OwdA&usqp=CAU">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" />
 
   </head>
-  <body class="p-3 m-0 border-0 bd-example bd-example-row">
+  <body>
 
     <div class="container">
       <div class="row  text-align left">
         <div class="col">
           <h1>CONNOR RAMIREZ</h1>
           <h3><i>Ingeniero en Sistemas</i></h3>
+          <a href="#datos">Click me</a> 
         </div>
       </div>
       <div class="row">
-        <div class="col-8">
-          <div class="row-cols-1">
-            <div class="col">
-              <span>Profesional con gran experiencia y excelentes dotes de gestión y dirección. Cuento con conocimientos especializados para optimizar procesos, reducir costes y maximizar la rentabilidad. Destaco por mi capacidad de liderazgo para sacar lo mejor de cada empleado.
-              Persona versátil y capaz de simultanear varias tareas. Con amplia experiencia en entornos laborales en los que se valora el compromiso y la capacidad de trabajar en equipo. Me caracterizo por mi dinamismo, proactividad y entusiasmo. Poseo buenos conocimientos digitales. Busco desarrollarme profesionalmente.</span>
+        <div class="col-sm-12 col-md-8">
+          <div class="row"> 
+            <div class="col-12 seccion">
+              Profesional con gran experiencia y excelentes dotes de gestión y dirección. Cuento con conocimientos especializados para optimizar procesos, reducir costes y maximizar la rentabilidad. Destaco por mi capacidad de liderazgo para sacar lo mejor de cada empleado.
+              Persona versátil y capaz de simultanear varias tareas. Con amplia experiencia en entornos laborales en los que se valora el compromiso y la capacidad de trabajar en equipo. Me caracterizo por mi dinamismo, proactividad y entusiasmo. Poseo buenos conocimientos digitales. Busco desarrollarme profesionalmente.
             </div>
-          </div>
-          <div class="row-cols-1">
+          <div class="col-12 seccion">
             <div class="titulo">
               EXPERIENCIA LABORAL
             </div>
           </div>
-          <div class="row">
-            <div class="col-2">
+            <div class="col-2 seccion">
               <div class="fecha">
                 Enero 2010 - Actualidad
               </div>
             </div>
-            <div class="col-10">
+            <div class="col-10 seccion">
               <div class="trabajo">
                 PUESTO LABORAL
                 EMPRESA, CIUDAD
@@ -55,9 +53,7 @@
                 </ul>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-2">
+            <div class="col-2 seccion">
               <div class="fecha">
                 Enero 2010 - Enero 2020
               </div>
@@ -76,99 +72,85 @@
                   <li>Desarrollo de proyectos y programas.</li>
                   <li>Elaboración de informes y reportes.</li>
                 </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-4">
+              </div> 
+            </div>  
+          </div> <!--row--->
+        </div> <!--col 8--->
+        <div class="col-sm-12 col-md-4">
           <div class="row">
-            <div class="col"> <img id="fotocv" src="C:\Users\EmiCórdoba\Desktop\Visual Studio Code\Proyecto-CV\Emiliano.jpg" alt="Foto de CV"/></div>
-            <div class="col">
+            <div class="col-12">
+              <div class="contenido-imagen">
+                <img src="./Emiliano.jpg" alt="Foto de CV"/>
+              </div>
+            </div>
+            <div class="col-12" id="datos">
               Perfil
-              <div class="row">
-                <div class="col">
-                  <div class="titulo">
-                    DOMICILIO
-                  </div>
-                  <div class="contenido">
-                    <span>950 SPRING ST</span>
-                  </div>
-                  <div class="titulo">
-                    TELEFONO
-                  </div>
-                  <div class="contenido">
-                    <span>(565) 454-5733</span>
-                  </div>
-                  <div class="titulo">
-                    EMAIL
-                  </div>
-                  <div class="contenido">
-                    <span>connor.ramirez@example.com</span>
-                  </div>
-                  <div class="titulo">
-                    LINKEDIN
-                  </div>
-                  <div class="contenido">
-                    <span>linkedin.com/connor.ramirez</span>
-                  </div>
-                  <div class="titulo">
-                    FECHA DE NACIMIENTO
-                  </div>
-                  <div class="contenido">
-                    <span> 25/02/1990 </span>
-                  </div>
-                </div>
-          </div>
-            <div class="col">Habilidades
-              <div class="row">
-                <div class="col-12">
-                  <ul>
-                    <li>COMUNICACION ESCRITA</li>
-                    <li>ORGANIZACION DE VIAJES</li>
-                    <li>CONTROL DE EMAILS</li>
-                  </ul> 
-               </div>
+              <div class="titulo">
+                DOMICILIO
+              </div>
+              <div class="contenido">
+                950 SPRING ST
+              </div>
+              <div class="titulo">
+                TELEFONO
+              </div>
+              <div class="contenido">
+                (565) 454-5733
+              </div>
+              <div class="titulo">
+                EMAIL
+              </div>
+              <div class="contenido">
+                connor.ramirez@example.com
+              </div>
+              <div class="titulo">
+                LINKEDIN
+              </div>
+              <div class="contenido">
+                linkedin.com/connor.ramirez
+              </div>
+              <div class="titulo">
+                FECHA DE NACIMIENTO
+              </div>
+              <div class="contenido">
+                 25/02/1990 
               </div>
             </div>
-            <div class="col">Software
-              <div class="row">
-                <div class="col-6">
-                  <ul>
-                    <li>SOFTWARE 1</li>
-                    <li>SOFTWARE 2</li>
-                    <li>SOFTWARE 3</li>
-                  </ul>
-                </div>
-                <div class="col-6">
-                  (ESTRELLAS)
-                  (ESTRELLAS)
-                  (ESTRELLAS)
-                </div>
-              </div>
+            <div class="col-12">
+              Habilidades
+              <ul>
+                <li>COMUNICACION ESCRITA</li>
+                <li>ORGANIZACION DE VIAJES</li>
+                <li>CONTROL DE EMAILS</li>
+              </ul> 
             </div>
-            <div class="col">Idioma
-              <div class="row">
-                <div class="col-6">
-                    <li>INGLES</li>
-                    <li>ITALIANO</li>
-                </div>
-                <div class="col-6">
-                  (ESTRELLAS)
-                  (ESTRELLAS)
-                </div>
-              </div>
+            <div class="col-12">
+              Software
+              <ul>
+                <li>SOFTWARE 1</li>
+                <li>SOFTWARE 2</li>
+                <li>SOFTWARE 3</li>
+              </ul>
             </div>
-            <div class="col">Hobbies
-              <div class="col">
+            <div class="col-12">
+              Idioma
+              <ul>
+                <li>INGLES</li>
+                <li>ITALIANO</li>
+              </ul>
+            </div>            
+            <div class="col-12">
+              Hobbies
+              <ul>
                 <li>GYM</li>
                 <li>FUTBOL</li>
                 <li>LECTURA</li>
-              </div>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
