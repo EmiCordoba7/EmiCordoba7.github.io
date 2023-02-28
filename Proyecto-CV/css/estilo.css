@@ -106,15 +106,20 @@ li p {
 }
 
 .bi-file-spreadsheet{
-
+	color:green;
 }
 
-.bi-star-fill{
-
+.bi-file-earmark-word{
+	color:blue;
 }
 
-.bi-star{
-    
+.bi-star-fill, .bi-star{
+	color:darkgoldenrod;
+    pre-wrap
+}
+
+.span{
+	padding-right: 2em;
 }
 
 footer{
