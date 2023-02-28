@@ -85,7 +85,37 @@ li p {
     padding-left: 1em;
 }
 
+.bi-geo-alt-fill{
+    color:red;
+}
 
+.bi-telephone-fill{
+    color:darkblue
+}
+
+.bi-envelope-at-fill{
+    color:gray;
+}
+
+.bi-linkedin{
+    color:#0e76a8;
+}
+
+.bi-calendar3{
+    color:black;
+}
+
+.bi-file-spreadsheet{
+
+}
+
+.bi-star-fill{
+
+}
+
+.bi-star{
+    
+}
 
 footer{
     
