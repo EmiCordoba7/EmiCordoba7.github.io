@@ -53,7 +53,7 @@ li{
     color: royalblue;
 }
 
-li p {
+li p{
     color: black;
     font-size: 0.8em;
 }
@@ -85,6 +85,7 @@ li p {
     padding-left: 1em;
 }
 
+/* Colores de los iconos*/
 .bi-geo-alt-fill{
     color:red;
 }
@@ -109,22 +110,20 @@ li p {
 	color:green;
 }
 
-.bi-file-earmark-word{
+.bi-file-earmark-word, .bi-bicycle{
 	color:blue;
 }
 
-.bi-star-fill, .bi-star{
-	color:darkgoldenrod;
-    pre-wrap
+.bi-dribbble{
+    color:orangered
 }
 
-.span{
-	padding-right: 2em;
+.bi-star-fill, .bi-star{
+	color:goldenrod;
 }
 
 footer{
     
-    padding: 5em 2em 5em 2em;
+    padding: 4em 2em 4em 2em;
     border-top: solid;
 }
-
