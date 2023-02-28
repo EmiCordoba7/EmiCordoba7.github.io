@@ -1,9 +1,8 @@
 body {
-    background-color:lightgray;
     font-family: Arial, Helvetica, 'Roboto', sans-serif; /* Robot la agregué para que se vea lo aprendido, no me gustaba para mi proyecto*/ 
 }
 
-h1,i{
+h1{
 	font-weight: bold;
 }
 
@@ -13,14 +12,58 @@ h1,i{
 }
 
 .seccion {
-    margin-top: 0.5em;
+    margin-top: 0.9em;
 }
 
+.col-12.seccion, .titulo2{
+    font-size: 0.9em;
+}
+
+.titulo{
+    font-weight: bold;
+    color: royalblue;
+    border-bottom: solid 0.15em;
+    border-color: grey;
+    text-indent: 1em;
+    font-size: 1.3em;
+}
 .seccion .fecha {
     font-weight: bold;
+    color: gray;
+    font-size: 0.8em;
+}
+.subtitulo{
+    border-left: solid 0.1em;
+    text-indent: 1em;
+    margin-bottom: 1em;
+}
+
+.trabajo{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.empresa{
+    font-size: 0.7em;
+    font-style: italic;
+
+}
+
+li{
+    color: royalblue;
+}
+
+li p {
+    color: black;
+    font-size: 0.8em;
+}
+
+.col-md-4{
+    background-color: lightblue;
 }
 
 .contenido-imagen {
+    margin: 1em 0em 1em 0em;
     text-align: center;
 }
 
@@ -28,8 +71,25 @@ h1,i{
     border-radius: 50%;
 }
 
-.titulo{
+.item{
+    text-align: center;
     font-weight: bold;
+    font-size: 1.2em;
+    text-decoration:underline wavy 0.01em royalblue;
+    padding: 0.5em;
 }
 
+.contenido{
+    font-size: 0.8em;
+    font-style: italic;
+    padding-left: 1em;
+}
+
+
+
+footer{
+    
+    padding: 5em 2em 5em 2em;
+    border-top: solid;
+}
 
