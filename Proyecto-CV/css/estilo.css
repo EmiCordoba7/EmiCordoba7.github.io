@@ -129,9 +129,29 @@ footer{
     border-top: solid;
 }
 
-#boton-imagen{
-    color:black;
-    background-color: darkgrey;
-    border-radius: 10%;
+#botonfoto{
+    text-align: center;
+    padding-top: 1em;
 }
 
+#boton-imagen{
+    font-size: 0.8em;
+    color:black;
+    background-color: lightgray;
+    border-radius: 0.7em;
+    border-width: 0.05em;
+}
+
+h6{
+    float: top;
+    font-size: 0.4;
+    text-align: center;
+    display:none; 
+    transition: all .5s;
+  }
+
+/* texto oculto*/
+#excel:hover > h6, #word:hover > h6, #ingles:hover > h6, #italiano:hover > h6 {
+    display:block;
+    transition: all .5s;
+}
